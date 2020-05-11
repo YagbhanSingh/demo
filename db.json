@@ -1,14 +1,179 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Data": {
+        "_HeaderList": [
+            {
+                "BatteryLevel": 0,
+                "ISGSM": 0,
+                "IdlingCount": 0,
+                "LowBattery": 0,
+                "MobilizeImmobilize": 0,
+                "MovingCount": 0,
+                "NotPollingCount": 3,
+                "Overspeed": 1,
+                "OverspeedDuration": 0,
+                "Panic": 0,
+                "PollingCount": 3,
+                "PoweCutOff": 0,
+                "PowerMode": 0,
+                "StationaryCount": 1
+            }
+        ],
+        "_VehicleList": [
+            {
+                "GroupName": "gh",
+                "PK_VehicleGroupingId": 71,
+                "VehicleCount": 1,
+                "VehicleDataList": [
+                    {
+                        "AccountId": 1,
+                        "AlertRefNo": "1581571211197_16",
+                        "BatteryLevel": "",
+                        "BatteryVoltage": "NA",
+                        "DeviceDateTime": "13-02-2020 05:27:11",
+                        "DeviceNo": "359632103966294",
+                        "FK_VehicleId": 2,
+                        "FirmwareVersion": "",
+                        "Fk_CustomerId": 12,
+                        "Fuel": "N/A",
+                        "GSMRSSI": "5",
+                        "HardwareVersion": "",
+                        "Heading": "179.0",
+                        "IMEINo": "",
+                        "ISGSM": "OFF",
+                        "Icon": "DefaultStopIcon.png",
+                        "IdleTimes": "",
+                        "InsertedDateTime": "13-02-2020 10:50:06",
+                        "IsDashBoard": null,
+                        "LastGPSConnect": "13-02-2020 05:27:11",
+                        "Lat": 28.4995166,
+                        "Location": "",
+                        "Long": 77.069805,
+                        "LowBattery": "OFF",
+                        "MachineCategory": null,
+                        "Mobilize_Immobilize": "OFF",
+                        "ModelName": "Truck123",
+                        "MovingTime": "",
+                        "OverSpeed": "ON",
+                        "OverSpeedDuration": "0",
+                        "PK_DashboardId": 0,
+                        "Panic": "OFF",
+                        "PowerCutOff": "OFF",
+                        "PowerMode": "",
+                        "RegistrationNo": "TEST09",
+                        "SIMNo": "",
+                        "SatelliteCount": "24",
+                        "Serverdatetime": "13/02/2020 11:23",
+                        "Speed": "0.0",
+                        "Status": "P",
+                        "StoppingTime": ""
+                    }
+                ]
+            },
+            {
+                "GroupName": "group12",
+                "PK_VehicleGroupingId": 73,
+                "VehicleCount": 1,
+                "VehicleDataList": [
+                    {
+                        "AccountId": 1,
+                        "AlertRefNo": "",
+                        "BatteryLevel": "",
+                        "BatteryVoltage": "",
+                        "DeviceDateTime": "13-03-2020 05:27:11",
+                        "DeviceNo": "25424",
+                        "FK_VehicleId": 4,
+                        "FirmwareVersion": "",
+                        "Fk_CustomerId": 3,
+                        "Fuel": "",
+                        "GSMRSSI": "",
+                        "HardwareVersion": "",
+                        "Heading": "",
+                        "IMEINo": "556564565",
+                        "ISGSM": "",
+                        "Icon": "DefaultIconPoll.png",
+                        "IdleTimes": "",
+                        "InsertedDateTime": "13-03-2020 05:27:11",
+                        "IsDashBoard": null,
+                        "LastGPSConnect": "",
+                        "Lat": 28.4995166,
+                        "Location": "",
+                        "Long": 28.4995166,
+                        "LowBattery": "",
+                        "MachineCategory": null,
+                        "Mobilize_Immobilize": "",
+                        "ModelName": "CAR",
+                        "MovingTime": "",
+                        "OverSpeed": "",
+                        "OverSpeedDuration": "",
+                        "PK_DashboardId": 0,
+                        "Panic": "",
+                        "PowerCutOff": "",
+                        "PowerMode": "",
+                        "RegistrationNo": "UP6566",
+                        "SIMNo": "54545",
+                        "SatelliteCount": "",
+                        "Serverdatetime": "13/02/2020 11:23",
+                        "Speed": "0",
+                        "Status": "P",
+                        "StoppingTime": ""
+                    }
+                ]
+            },
+            {
+                "GroupName": "Default Group",
+                "PK_VehicleGroupingId": 0,
+                "VehicleCount": 1,
+                "VehicleDataList": [
+                    {
+                        "AccountId": 1,
+                        "AlertRefNo": "",
+                        "BatteryLevel": "",
+                        "BatteryVoltage": "",
+                        "DeviceDateTime": "13-03-2020 05:27:11",
+                        "DeviceNo": "8566785979",
+                        "FK_VehicleId": 5,
+                        "FirmwareVersion": "",
+                        "Fk_CustomerId": 5,
+                        "Fuel": "",
+                        "GSMRSSI": "",
+                        "HardwareVersion": "",
+                        "Heading": "",
+                        "IMEINo": "67567768",
+                        "ISGSM": "",
+                        "Icon": "DefaultIconPoll.png",
+                        "IdleTimes": "",
+                        "InsertedDateTime": "13-03-2020 05:27:11",
+                        "IsDashBoard": null,
+                        "LastGPSConnect": "",
+                        "Lat": 0,
+                        "Location": "",
+                        "Long": 0,
+                        "LowBattery": "",
+                        "MachineCategory": null,
+                        "Mobilize_Immobilize": "",
+                        "ModelName": "CARS",
+                        "MovingTime": "",
+                        "OverSpeed": "",
+                        "OverSpeedDuration": "",
+                        "PK_DashboardId": 0,
+                        "Panic": "",
+                        "PowerCutOff": "",
+                        "PowerMode": "",
+                        "RegistrationNo": "UP978978",
+                        "SIMNo": "7675756",
+                        "SatelliteCount": "",
+                        "Serverdatetime": "12/02/2020 00:00",
+                        "Speed": "0",
+                        "Status": "P",
+                        "StoppingTime": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "Description": null,
+    "Message": "Success",
+    "Result": true,
+    "status": 1
 }
+
